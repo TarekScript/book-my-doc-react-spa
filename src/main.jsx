@@ -9,6 +9,6 @@ const root = document.getElementById("root");
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />,
-  </StrictMode>,
+    <RouterProvider router={router} />
+  </StrictMode>
 )

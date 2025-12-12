@@ -1,0 +1,198 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Aisha Khan",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 12,
+        "education": "MBBS, MD (Internal Medicine)",
+        "speciality": "Internal Medicine",
+        "regNumber": "REG12345",
+        "designation": "Consultant",
+        "fees": 500,
+        "worksPlace": "City Hospital, New York",
+        "availableDays": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Dr. Rahul Sharma",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 8,
+        "education": "MBBS, MS (Surgery)",
+        "speciality": "General Surgery",
+        "regNumber": "REG12346",
+        "designation": "Surgeon",
+        "fees": 700,
+        "worksPlace": "Green Valley Clinic, New York",
+        "availableDays": [
+            "Tuesday",
+            "Thursday"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Dr. Neha Verma",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 15,
+        "education": "MBBS, MD (Pediatrics)",
+        "speciality": "Pediatrics",
+        "regNumber": "REG12347",
+        "designation": "Senior Consultant",
+        "fees": 600,
+        "worksPlace": "Sunrise Children Hospital, New York",
+        "availableDays": [
+            "Monday",
+            "Tuesday",
+            "Thursday"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Dr. Sameer Ali",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 10,
+        "education": "MBBS, MD (Cardiology)",
+        "speciality": "Cardiology",
+        "regNumber": "REG12348",
+        "designation": "Cardiologist",
+        "fees": 1000,
+        "worksPlace": "Heart Care Clinic, New York",
+        "availableDays": [
+            "Wednesday",
+            "Friday"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Dr. Priya Desai",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 7,
+        "education": "MBBS, MD (Dermatology)",
+        "speciality": "Dermatology",
+        "regNumber": "REG12349",
+        "designation": "Dermatologist",
+        "fees": 400,
+        "worksPlace": "Skin Care Center, New York",
+        "availableDays": [
+            "Monday",
+            "Thursday"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Dr. Arjun Mehta",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 20,
+        "education": "MBBS, MS (Orthopedics)",
+        "speciality": "Orthopedics",
+        "regNumber": "REG12350",
+        "designation": "Senior Orthopedic Surgeon",
+        "fees": 900,
+        "worksPlace": "Bone & Joint Hospital, New York",
+        "availableDays": [
+            "Tuesday",
+            "Friday"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Dr. Sanya Kapoor",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 9,
+        "education": "MBBS, MD (Gynecology)",
+        "speciality": "Gynecology",
+        "regNumber": "REG12351",
+        "designation": "Gynecologist",
+        "fees": 500,
+        "worksPlace": "Women’s Health Clinic, New York",
+        "availableDays": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Dr. Karan Singh",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 6,
+        "education": "MBBS, MD (Neurology)",
+        "speciality": "Neurology",
+        "regNumber": "REG12352",
+        "designation": "Neurologist",
+        "fees": 1100,
+        "worksPlace": "Neuro Care Hospital, New York",
+        "availableDays": [
+            "Tuesday",
+            "Thursday"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Dr. Meera Iyer",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 14,
+        "education": "MBBS, MD (Ophthalmology)",
+        "speciality": "Ophthalmology",
+        "regNumber": "REG12353",
+        "designation": "Eye Specialist",
+        "fees": 450,
+        "worksPlace": "Vision Eye Center, New York",
+        "availableDays": [
+            "Monday",
+            "Wednesday"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Dr. Vikram Joshi",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 11,
+        "education": "MBBS, MD (ENT)",
+        "speciality": "ENT",
+        "regNumber": "REG12354",
+        "designation": "ENT Specialist",
+        "fees": 500,
+        "worksPlace": "ENT Care Clinic, New York",
+        "availableDays": [
+            "Tuesday",
+            "Thursday"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Dr. Anjali Rao",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 13,
+        "education": "MBBS, MD (Psychiatry)",
+        "speciality": "Psychiatry",
+        "regNumber": "REG12355",
+        "designation": "Psychiatrist",
+        "fees": 600,
+        "worksPlace": "MindCare Clinic, New York",
+        "availableDays": [
+            "Monday",
+            "Friday"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Dr. Rohan Gupta",
+        "image": "https://i.ibb.co/mwDpF5j/doctor-sample.png",
+        "yearsOfExperience": 18,
+        "education": "MBBS, MD (Gastroenterology)",
+        "speciality": "Gastroenterology",
+        "regNumber": "REG12356",
+        "designation": "Gastroenterologist",
+        "fees": 950,
+        "worksPlace": "Digestive Health Center, New York",
+        "availableDays": [
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ]
+    }
+]
