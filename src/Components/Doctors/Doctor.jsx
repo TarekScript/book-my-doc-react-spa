@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Doctor = ({ doctor }) => {
-    const { name, image, yearsOfExperience, education, speciality, regNumber } = doctor;
+    const { name, image, yearsOfExperience, education, speciality, regNumber, id } = doctor;
     return (
         <div className="card bg-base-100 shadow-lg">
             <figure className="px-10 pt-10">
@@ -20,7 +21,7 @@ const Doctor = ({ doctor }) => {
                 <hr className='opacity-75' />
                 <h3 className='font-medium text-gray-600'>Reg No. {regNumber}</h3>
                 <div className="card-actions flex items-center justify-center">
-                    <button className="btn btn-outline rounded-xl px-10 text-[#176AE5]">View Details</button>
+                    <Link to={`/doctorsDetails/${id}`}><button className="btn btn-outline rounded-xl px-10 text-[#176AE5]">View Details</button></Link>
                 </div>
             </div>
         </div>
