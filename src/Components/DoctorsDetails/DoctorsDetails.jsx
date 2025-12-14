@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { useLoaderData, useNavigate, useParams } from 'react-router';
 import { ToastContainer } from 'react-toastify';
 import { setToCart } from '../../utility/addToCart';
 
@@ -7,9 +7,13 @@ const DoctorsDetails = () => {
     const doctorsData = useLoaderData();
     const { id } = useParams();
     const selectedDoctor = doctorsData.find(doc => doc.id == id);
+    // testing 
+    const navigate = useNavigate();
     const handleAppointment = () => {
-        setToCart(id);
+        setToCart(id, navigate);
     }
+
+
     return (
         <div className='mt-8 '>
             <div className='bg-white p-8 space-y-4 rounded-xl'>

@@ -21,7 +21,6 @@ const Appoinment = () => {
         setMyAppointedDocts(prev =>
             prev.filter(doctor => doctor.id !== id)
         );
-
     }
 
     return (
