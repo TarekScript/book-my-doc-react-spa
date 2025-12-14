@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
+import { ToastContainer } from 'react-toastify';
 import { setToCart } from '../../utility/addToCart';
 
 const DoctorsDetails = () => {
@@ -45,6 +46,7 @@ const DoctorsDetails = () => {
                     <button className="btn bg-[#09982F33] rounded-lg text-[#09982F] btn-sm">Available</button>
                 </div>
                 <h1 className=" bg-[#FFA0001A] text-[#FFA000]  rounded-xl text-center p-2 mt-4">Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</h1>
+                <ToastContainer />
                 <button onClick={handleAppointment} className="btn text-white font-bold flex mx-auto bg-[#176AE5] rounded-xl w-3/4 mt-4">Book Appointment Now</button>
             </div>
         </div>
