@@ -20,4 +20,12 @@ const setToCart = (id) => {
     localStorage.setItem('storedDocts', doctorsStr);
 }
 
-export { setToCart, getStoredData }
+const removeFromCart = (id) => {
+    const storedDoctor = getStoredData();
+
+    const restDoctors = storedDoctor.filter(doctor => doctor != id);
+    const restDoctorsStr = JSON.stringify(restDoctors);
+    localStorage.setItem('storedDocts', restDoctorsStr);
+}
+
+export { setToCart, getStoredData, removeFromCart }

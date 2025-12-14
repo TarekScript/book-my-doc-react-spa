@@ -6,9 +6,11 @@ import NavBar from '../Header/NavBar';
 const Roots = () => {
     return (
         <div className='bg-[#EFEFEF]'>
-            <div className='max-w-7xl mx-auto bg-[#EFEFEF]'>
+            <div className='min-h-screen flex flex-col bg-[#EFEFEF'>
                 <NavBar></NavBar>
-                <Outlet></Outlet>
+                <div className='flex-grow max-w-7xl mx-auto w-full'>
+                    <Outlet></Outlet>
+                </div>
                 <Footer></Footer>
             </div>
         </div>

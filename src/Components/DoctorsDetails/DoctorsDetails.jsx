@@ -28,7 +28,7 @@ const DoctorsDetails = () => {
                     <hr className='border-t border-dashed border-gray-500 opacity-50' />
                     <h3 className='text-gray-500 my-2'>Reg No. {selectedDoctor.regNumber}</h3>
                     <hr className='border-t border-dashed border-gray-500 opacity-50' />
-                    <div className='flex gap-4 my-4 items-center'>
+                    <div className='flex flex-col md:flex-row gap-4 my-4 items-center'>
                         <h3>Availibality</h3>
                         {
                             selectedDoctor.availableDays.map(day => <button className='btn bg-[#FFA00033] btn-sm rounded-lg text-[#FFA000]'>{day}</button>)
@@ -44,7 +44,7 @@ const DoctorsDetails = () => {
                     <h1 className='text-lg font-bold'>Avilability</h1>
                     <button className="btn bg-[#09982F33] rounded-lg text-[#09982F] btn-sm">Available</button>
                 </div>
-                <button className="btn bg-[#FFA0001A] text-[#FFA000] btn-sm rounded-xl flex mx-auto">Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</button>
+                <h1 className=" bg-[#FFA0001A] text-[#FFA000]  rounded-xl text-center p-2 mt-4">Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</h1>
                 <button onClick={handleAppointment} className="btn text-white font-bold flex mx-auto bg-[#176AE5] rounded-xl w-3/4 mt-4">Book Appointment Now</button>
             </div>
         </div>
