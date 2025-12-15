@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import { ToastContainer, toast } from 'react-toastify';
 import { getStoredData, removeFromCart } from '../../utility/addToCart';
+import Chart from '../Chart/Chart';
 
 const Appoinment = () => {
     const [myAppointedDocts, setMyAppointedDocts] = useState([]);
@@ -34,6 +35,9 @@ const Appoinment = () => {
                 </div>
             </div> :
                 <div>
+
+                    {/* test  */}
+                    <Chart data={myAppointedDocts}></Chart>
                     <h1 className='text-3xl font-bold text-center'>My Today's Appointments</h1>
                     <p className='text-center text-gray-600 mt-4'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.</p>
 
