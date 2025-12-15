@@ -1,16 +1,29 @@
-# React + Vite
+BookMyDoctorBD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BookMyDoctorBD** is a  responsive React Single Page web application.  It uses **React Router** for navigation, **Recharts** for analytics, and **Tailwind + DaisyUI** for styling. User data is stored locally using **LocalStorage**.
 
-Currently, two official plugins are available:
+[Live Demo](https://bookmydoctorbd.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+- Book appointments online and save them locally in the browser.
+- Interactive charts using **Recharts** for analytics.
+- Fully responsive design with **Tailwind CSS** and **DaisyUI** components.
+- Smooth client-side routing with **React Router**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- **React** – Frontend library
+- **React Router** – Client-side routing
+- **Recharts** – Data visualization
+- **Tailwind CSS + DaisyUI** – Styling and UI components
+- **LocalStorage** – Store user data in the browser
+- **Netlify** – Deployment and hosting
+
+---
+
